@@ -9,8 +9,8 @@
             <ul class="navbar-nav">
                 <x-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')">Home</x-nav-link>
                 {{-- <x-nav-link :href="route('about')" :active="request()->routeIs('about')">About</x-nav-link>
-                <x-nav-link href="/contact" :active="request()->routeIs('contact')">Contact</x-nav-link> --}}
-                <x-nav-link href="/posts" :active="request()->routeIs('posts.*')">Posts</x-nav-link>
+                <x-nav-link href="/contact"{{ :active="request()->routeIs('contact')">Contact</x-nav-link> --}}
+                <x-nav-link href="{{ route('timeline.index') }}" :active="request()->routeIs('timeline.*')">Timeline</x-nav-link>
 
             </ul>
 
