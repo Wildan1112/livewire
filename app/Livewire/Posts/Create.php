@@ -2,8 +2,8 @@
 
 namespace App\Livewire\Posts;
 
-use Livewire\Component;
 use App\Livewire\Forms\PostForm;
+use Livewire\Component;
 
 class Create extends Component
 {

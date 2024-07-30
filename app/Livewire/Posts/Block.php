@@ -8,6 +8,7 @@ use Livewire\Component;
 class Block extends Component
 {
     public Post $post;
+
     public function render()
     {
         return view('livewire.posts.block');
